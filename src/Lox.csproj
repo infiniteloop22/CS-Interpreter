@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+	<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	<StartupObject>Lox.Lox</StartupObject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Compile Include="Lox\Lox.cs" />
+   	<Compile Include="Scanner\Scanner.cs" />
+	<Compile Include="Tokens\Token.cs" />
+	<Compile Include="Tokens\TokenType.cs" />
+	<Compile Include="SyntaxTree\Expr.cs" />
+	<Compile Include="GenerateAst.cs" />
+	<Compile Include="AstPrinter.cs" />
+	<Compile Include="Parsing\Parser.cs" />
+	<Compile Include="Lox\Interpreter.cs" />
+	<Compile Include="Lox\RuntimeError.cs" />
+	<Compile Include="Lox\Environment.cs" />
+	<Compile Include="SyntaxTree\Stmt.cs" />
+  </ItemGroup>
+
+</Project>
