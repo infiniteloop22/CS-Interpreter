@@ -1,0 +1,6 @@
+var isRaining = true;
+if (!isRaining) {
+    print "It is not raining, you can go outside!";
+} else {
+    print "It is raining, stay inside!";
+}

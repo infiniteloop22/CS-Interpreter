@@ -1,0 +1,9 @@
+var number = 15;
+
+if (number > 0 and number <= 20) { 
+    print "The number is between 0 and 20"; 
+} else if (number > 20) {
+    print "The number is greater than 20"; 
+} else {
+    print "The number is negative"; 
+}
